@@ -30,5 +30,5 @@ app.get(/\/.+\.html/g, function (req, res) {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Running code at http://localhost:${port}`);
 });
