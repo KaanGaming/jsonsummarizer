@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON Summarizer</title>
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="scripts/main.js"></script>
+  </head>
+  <body>
+    <h1 class="mh">JSON Summarizer</h1>
+    <p>This project makes a JSON file simply readable in human form and summarizing it in a list form.</p>
+    <textarea id="jsoncode" placeholder="{}" class="code" rows="10"></textarea>
+    <button onclick="Parse();">Parse JSON text</button>
+    <p>Or you can simply choose to upload a JSON file: <input id="jsonfile" type="file" oninput="setTimeout(ParseFile, 1000);"></p>
+    <p style="font-size:14px;">(Attention: Google Translate may have translated this page automatically depending on your language. The JSON text generation may end up being faulty. However, if the text ends up being broken or wrong, hover your mouse over the text to read the original text. Please, don't rely on this function.)<br>
+      <a href="googletranslate.html">More information</a>
+    </p>
+    <hr>
+    <div id="thejson" class="code"></div>
+    <div class="mh">
+      GitHub: <a href="https://github.com/KaanGaming">https://github.com/KaanGaming</a><br>
+      E-mail: <a href="mailto:kaangaming.gamejolt@gmail.com">kaangaming.gamejolt@gmail.com</a><br>
+      <span id="he">Translate the page:</span> <div id="google_translate_element" onmouseover="displayWarning()" onmouseout="dedisplayWarning()"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+  </body>
+</html>
