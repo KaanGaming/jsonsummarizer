@@ -14,12 +14,15 @@ This is a small HTML project which summarizes JSON code into human readable summ
 ## Run code locally
 
 0. Install packages if you haven't already
+
 For Linux
 ```bash
 pkg install nodejs
 pkg install git
 ```
 For Windows/Mac: 
+  * [Node.js](https://nodejs.org/en/download/)
+  * [Git](http://git-scm.com/)
 
 1. Clone the project
 ```ash
