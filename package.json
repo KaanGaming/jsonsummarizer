@@ -1,0 +1,20 @@
+{
+  "name": "jsonsummarizer",
+  "version": "1.0.0",
+  "description": "Summarizes JSON code into readable human text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "summarizer",
+    "summary"
+  ],
+  "author": "KaanGaming",
+  "license": "ISC",
+  "repository": "github:KaanGaming/jsonsummarizer",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
