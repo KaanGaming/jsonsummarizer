@@ -5,19 +5,21 @@ Welcome to **jsonsummarizer**! This document is about the guidelines for this re
 
 #### Table of Contents
 
-1. [Code of Conduct](#code-of-conduct)
-2. [Simple Details On What Should You Know](#simple-details-on-what-should-you-know)
-3. [Ways To Contribute](#ways-to-contribute)
-  1. [Issues](#issues)
-    1. [Reporting Bugs](#reporting-bugs)
-    2. [Requesting Features](#requesting-features)
-  2. [Pull Requests](#pull-requests)
-    1. [Your First Code Contribution](#your-first-code-contribution)
-      1. [Local code development](#local-code-development)
-    2. [Creating Pull Requests](#creating-pull-requests)
-4. [Additional Notes](#additional-notes)
-  1. [Issue Labels](#issue-labels)
-  2. [Pull Request Labels](#pull-request-labels)
+| Table | of | Contents | |
+| ----- | ----- | ----- | ----- |
+| 1. [Code of Conduct](#code-of-conduct) |
+| 2. [Simple Details On What Should You Know](#simple-details-on-what-should-you-know) |
+| 3. [Ways To Contribute](#ways-to-contribute) |
+| | 1. [Issues](#issues) |
+| | | 3.1.1. [Reporting Bugs](#reporting-bugs) |
+| | | 3.1.2. [Requesting Features](#requesting-features) |
+| | 3.2. [Pull Requests](#pull-requests) |
+| | | 1. [Your First Code Contribution](#your-first-code-contribution)
+| | | | 1. [Local code development](#local-code-development)
+| | | 3.2.2. [Creating Pull Requests](#creating-pull-requests)
+| 4. [Additional Notes](#additional-notes) |
+| | 4.1. [Issue Labels](#issue-labels)
+| | 4.2. [Pull Request Labels](#pull-request-labels)
 
 # Code of Conduct
 
