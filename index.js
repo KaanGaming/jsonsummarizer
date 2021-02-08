@@ -9,9 +9,6 @@ app.get(/\/.+\.html/g, function (req, res) {
   var filename = "." + req.path;
   if (req.path == "/") req.path = "/index.html";
   var newmethod = req.query.newmethod ?? "false";
-  if ((req.query.newmethod ?? "aaaa") == "aaaa") {
-    console.log('used null coalescensing method');
-  }
   console.log(req.path);
   if (newmethod == "true") {
     res.sendFile(req.path);

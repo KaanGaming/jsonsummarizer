@@ -12,7 +12,7 @@
     "summary"
   ],
   "author": "KaanGaming",
-  "license": "ISC",
+  "license": "MIT",
   "repository": "github:KaanGaming/jsonsummarizer",
   "dependencies": {
     "express": "^4.17.1"
